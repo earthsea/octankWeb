@@ -7,7 +7,11 @@
         <title>Welcome to Octank</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<<<<<<< HEAD
         <style>body {margin-top: 40px; background-color: #777;}</style>
+=======
+        <style>body {margin-top: 40px; background-color: #900;}</style>
+>>>>>>> 39b2ef64f1b3faeb8113beb937e1c9cd031b6535
         <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
         <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     </head>
