@@ -17,7 +17,6 @@
             <div class="hero-unit" >
                 <a href="main.php" style="text-decoration:none"><h1>OCTANK WEB PoC</h1></a>
                 <h2>Welcome to OCTANK Web Service</h2>
-                <p> </p>
                 <p>This PHP application is now running on a container in Amazon ECS.</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
                 <?php
@@ -25,7 +24,8 @@
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
                         fclose($myfile);
                 ?>
-                <?php include('get-cpu-load.php'); ?>
+                <h2><?php include('get-cpu-load.php'); ?></h2>
+
             </div>
         </div>
 
