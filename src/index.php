@@ -7,18 +7,14 @@
         <title>Welcome to Octank</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-<<<<<<< HEAD
         <style>body {margin-top: 40px; background-color: #777;}</style>
-=======
-        <style>body {margin-top: 40px; background-color: #900;}</style>
->>>>>>> 39b2ef64f1b3faeb8113beb937e1c9cd031b6535
         <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
         <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     </head>
 
     <body>
         <div class="container">
-            <div class="hero-unit">
+            <div class="hero-unit" style="text-align:center">
                 <h1>OCTANK 3Tier-Web PoC</h1>
                 <h2>Welcome to octank Web Service</h2>
                 <p>This PHP application is now running on a container in Amazon ECS.</p>
@@ -28,7 +24,7 @@
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
                         fclose($myfile);
                 ?>
-
+                <a href="main.php"><img src="https://s3-us-west-2.amazonaws.com/octank-2017mbp3rd/ServerImage/octan.jpg"></a>
             </div>
         </div>
 
