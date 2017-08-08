@@ -26,7 +26,7 @@
                 ?>
                 <h2><?php include('get-cpu-load.php'); ?></h2>
                 <br />
-                <p><h2><a href="put-cpu.load.php" style="text-decoration:none">CPU LOAD >></a></h2></P>
+                <p><h2><a href="put-cpu-load.php" style="text-decoration:none">CPU LOAD >></a></h2></P>
                 <P><h2><a href="rds-read-data.php" style="text-decoration:none">RDS >></a></h2></P>
             </div>
         </div>

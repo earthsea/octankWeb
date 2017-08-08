@@ -13,9 +13,9 @@
     </head>
 
     <body>
-        <h2>Aurora DB Read View</h2><p>
         <div class="container">
-            <div class="hero-unit" >
+            <div class="hero-unit" align=center>
+                <h1>Aurora DB Read View</h1><p>
                 <?php
                 //This is a simple address book example for testing with RDS
 
@@ -34,7 +34,7 @@
 
                 if ( $mode=="add")
                 {
-                Print '<h2>Add Contact</h2>
+                Print '<h2>Add DATA</h2>
                 <p>
                 <form action=';
                 echo $_SERVER['PHP_SELF'];
@@ -43,7 +43,7 @@
                 <table>
                 <tr><td>Name:</td><td><input type="text" name="name" /></td></tr>
                 <tr><td>Phone:</td><td><input type="text" name="phone" /></td></tr>
-                <tr><td>Email:</td><td><input type="text" name="email" /></td></tr>
+                <tr><td>Time:</td><td><input type="text" name="email" /></td></tr>
                 <tr><td colspan="2" align="center"><input type="submit" /></td></tr>
                 <input type=hidden name=mode value=added>
                 </table>
