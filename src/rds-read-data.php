@@ -57,7 +57,7 @@
 
                 if ( $mode=="edit")
                 {
-                Print '<h2>Edit Contact</h2>
+                Print '<h2>Edit DATA</h2>
                 <p>
                 <form action=';
                 echo $_SERVER['PHP_SELF'];
@@ -72,7 +72,7 @@
                 print '" name="phone" /></td></tr>
                 <tr><td>Email:</td><td><input type="text" value="';
                 Print $email;
-                print '" name="email" /></td></tr>
+                print '" name="Time" /></td></tr>
                 <tr><td colspan="2" align="center"><input type="submit" /></td></tr>
                 <input type=hidden name=mode value=edited>
                 <input type=hidden name=id value=';
@@ -94,7 +94,7 @@
                 Print "Entry has been removed <p>";
                 }
 
-                $data = mysql_query("SELECT * FROM address ORDER BY email ASC")
+                $data = mysql_query("SELECT * FROM address ORDER BY email DESC")
                 or die(mysql_error());
                 Print "<table border cellpadding=3>";
                 Print "<tr><th width=100>Name</th> " .
@@ -102,7 +102,7 @@
                 "<th width=200>Time</th> " .
                 "<th width=100 colspan=2>Admin</th></tr>";
                 Print "<td colspan=5 align=right> " .
-                "<a href=" .$_SERVER['PHP_SELF']. "?mode=add>Add Contact</a></td>";
+                "<a href=" .$_SERVER['PHP_SELF']. "?mode=add>Add DATA</a></td>";
                 while($info = mysql_fetch_array( $data ))
                 {
                 Print "<tr><td>".$info['name'] . "</td> ";
