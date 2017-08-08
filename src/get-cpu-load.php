@@ -7,7 +7,7 @@
 
   # Print out the idle time, subtracted from 100 to get the current CPU utilization
   echo "<br />";
-  echo "<p>InstanceId : <i>" . file_get_contents($urlRoot . 'instance-id') . " </i> : Current CPU Load: <b>";
+  echo "<p>Instance id : <i>" . file_get_contents($urlRoot . 'instance-id') . " </i><br />Current CPU Load: <b>";
   echo 100-$idleCpu;
   echo "%</b></p>";
 

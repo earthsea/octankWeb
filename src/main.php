@@ -25,8 +25,8 @@
                         fclose($myfile);
                 ?>
                 <h2><?php include('get-cpu-load.php'); ?></h2>
-                <p> <a href="put-cpu.load.php">CPU LOAD></a></P>
-                <P> <a href="rds-read-data.php">RDS</a></P>
+                <p><h2><a href="put-cpu.load.php">CPU LOAD</a></h2></P>
+                <P><h2><a href="rds-read-data.php">RDS</a></h2></P>
 
             </div>
         </div>
