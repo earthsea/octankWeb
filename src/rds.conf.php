@@ -1,0 +1,1 @@
+<?php $RDS_URL='octankdbc.cluster-cqp2clnjwy83.us-west-2.rds.amazonaws.com'; $RDS_DB='octank'; $RDS_user='ocmaster'; $RDS_pwd='octank1234'; ?>
