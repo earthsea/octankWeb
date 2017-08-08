@@ -16,9 +16,9 @@
         <div class="container">
             <img src="https://s3-us-west-2.amazonaws.com/octank-2017mbp3rd/ServerImage/octan.png">
             <div class="hero-unit" >
-                <a href="main.php"><h1>OCTANK 3Tier-WEB PoC</h1></a>
+                <a href="main.php" style="text-decoration:none"><h1>OCTANK 3Tier-WEB PoC</h1></a>
                 <h2>Welcome to OCTANK Web Service</h2>
-                <p></p>
+                <p> </p>
                 <p>This PHP application is now running on a container in Amazon ECS.</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
                 <?php
