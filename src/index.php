@@ -25,6 +25,8 @@
                         fclose($myfile);
                 ?>
                 <h2><?php include('get-cpu-load.php'); ?></h2>
+                <p> CPU LOAD </P>
+                <P> RDS </P>
 
             </div>
         </div>
