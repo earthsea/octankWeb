@@ -24,9 +24,6 @@
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
                         fclose($myfile);
                 ?>
-                <h2></h2>
-                <p> CPU LOAD </P>
-                <P> RDS </P>
 
             </div>
         </div>
