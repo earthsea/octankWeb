@@ -6,7 +6,7 @@
   $urlRoot="http://169.254.169.254/latest/meta-data/";
 
   # Print out the idle time, subtracted from 100 to get the current CPU utilization
-  echo "<br />"
+  echo "<br />";
   echo "<p>InstanceId : <i>" . file_get_contents($urlRoot . 'instance-id') . " </i> : Current CPU Load: <b>";
   echo 100-$idleCpu;
   echo "%</b></p>";
