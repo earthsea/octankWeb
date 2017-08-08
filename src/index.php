@@ -14,8 +14,9 @@
 
     <body>
         <div class="container">
-            <div class="hero-unit" style="text-align:center">
-                <h1>OCTANK 3Tier-Web PoC</h1>
+            <img src="https://s3-us-west-2.amazonaws.com/octank-2017mbp3rd/ServerImage/octan.jpg">
+            <div class="hero-unit" >
+                <a href="main.php"><h1>OCTANK 3Tier-Web PoC</h1></a>
                 <h2>Welcome to octank Web Service</h2>
                 <p>This PHP application is now running on a container in Amazon ECS.</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
@@ -24,7 +25,7 @@
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
                         fclose($myfile);
                 ?>
-                <a href="main.php"><img src="https://s3-us-west-2.amazonaws.com/octank-2017mbp3rd/ServerImage/octan.jpg"></a>
+
             </div>
         </div>
 
