@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Welcome to Octank</title>
+        <title>Welcome to OCTANK</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <style>body {margin-top: 40px; background-color: #777;}</style>
@@ -14,10 +14,11 @@
 
     <body>
         <div class="container">
-            <img src="https://s3-us-west-2.amazonaws.com/octank-2017mbp3rd/ServerImage/octan.jpg">
+            <img src="https://s3-us-west-2.amazonaws.com/octank-2017mbp3rd/ServerImage/octan.png">
             <div class="hero-unit" >
-                <a href="main.php"><h1>OCTANK 3Tier-Web PoC</h1></a>
-                <h2>Welcome to octank Web Service</h2>
+                <a href="main.php"><h1>OCTANK 3Tier-WEB PoC</h1></a>
+                <h2>Welcome to OCTANK Web Service</h2>
+                <p></p>
                 <p>This PHP application is now running on a container in Amazon ECS.</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
                 <?php
