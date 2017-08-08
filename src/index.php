@@ -25,7 +25,7 @@
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
                         fclose($myfile);
                 ?>
-
+                <?php include('get-cpu-load.php'); ?>
             </div>
         </div>
 
