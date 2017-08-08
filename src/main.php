@@ -15,7 +15,7 @@
     <body>
         <div class="container">
             <div class="hero-unit" >
-                <h1><a href="main.php">OCTANK WEB PoC</p></h1>
+                <h1><a href="main.php">OCTANK WEB PoC</a></h1>
                 <h2>Welcome to OCTANK Web Service</h2>
                 <p>This PHP application is now running on a container in Amazon ECS.</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
@@ -25,8 +25,8 @@
                         fclose($myfile);
                 ?>
                 <h2><?php include('get-cpu-load.php'); ?></h2>
-                <p> <a href="put-cpu.load.php">CPU LOAD>/a></P>
-                <P> RDS </P>
+                <p> <a href="put-cpu.load.php">CPU LOAD></a></P>
+                <P> <a href="rds-read-data.php">RDS</a></P>
 
             </div>
         </div>
