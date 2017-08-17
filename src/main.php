@@ -17,7 +17,7 @@
         <div class="container">
             <div class="hero-unit" >
                 <h1><a href="main.php" style="text-decoration:none">OCTANK WEB PoC</a></h1>
-                <h2>Welcome to OCTANK Web Service</h2>
+                <h2>Welcome to OCTANK Web Service 11</h2>
                 <p>This PHP application is now running on a container in Amazon ECS.</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
                 <?php
